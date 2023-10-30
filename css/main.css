@@ -1,0 +1,189 @@
+body {
+  background-color: #f9f9f7;
+  color: #2c2f24;
+}
+p {
+  font-family: Arial;
+}
+.topbar {
+  background-color: #474747;
+  vertical-align: middle;
+  text-decoration: none;
+  line-height: 45px;
+  padding: 0px 150px 0px 150px;
+}
+.topbar p {
+  color: #ffffff;
+  font-size: 16px;
+}
+.contact {
+  display: inline-block;
+  vertical-align: middle;
+  width: 319px;
+  text-align: right;
+}
+.phone {
+  padding: 0px 10px 0px 0px;
+}
+.phone a {
+  width: 121px;
+}
+.phone img {
+  width: 18px;
+}
+.pnum {
+  color: #ffffff;
+  display: inline-block;
+  text-decoration: none;
+}
+.mail a {
+  width: 173px;
+}
+.mail img {
+  width: 18px;
+}
+.address {
+  color: #ffffff;
+  display: inline-block;
+  text-decoration: none;
+}
+.twitter {
+  background-color: #f9f9f712;
+  height: 21px;
+  width: 21px;
+  border-radius: 20px;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 21px;
+  display: inline-block;
+}
+.fb {
+  background-color: #f9f9f712;
+  height: 21px;
+  width: 21px;
+  border-radius: 20px;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 21px;
+  display: inline-block;
+}
+.ig {
+  background-color: #f9f9f712;
+  height: 21px;
+  width: 21px;
+  border-radius: 20px;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 21px;
+  display: inline-block;
+}
+.github {
+  background-color: #f9f9f712;
+  height: 21px;
+  width: 21px;
+  border-radius: 20px;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 21px;
+  display: inline-block;
+}
+.social {
+  line-height: 25px;
+  width: calc(100% - 323px);
+  text-align: right;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.noodle img {
+  width: 56px;
+}
+.kit img {
+  width: 325px;
+}
+.logo {
+  display: inline-block;
+  padding-left: 150px;
+  padding-top: 20px;
+  margin: 0;
+  vertical-align: middle;
+  text-align: center;
+}
+.ntua_kit_nav ul {
+  display: inline-block;
+  padding: 0px 120px 0px 80px;
+  margin: 0;
+  vertical-align: middle;
+  width: calc(100% - 1000px);
+  text-align: right;
+}
+.nav li {
+  display: inline-block;
+  position: relative;
+  vertical-align: middle;
+}
+.nav li a {
+  padding: 6px 16px 6px 16px;
+  border-radius: 34px;
+  vertical-align: middle;
+}
+.button1 {
+  padding: 8px 16px 8px 16px;
+  border-radius: 34px;
+  font-weight: bolder;
+  vertical-align: middle;
+}
+.nav li a:hover {
+  background: #dbdfd0;
+}
+.ntua_kit_nav {
+  line-height: 80px;
+}
+.hero {
+  height: 900px;
+  background-image: url(../img/bg.png);
+  background-repeat: no-repeat;
+}
+.title {
+  font-size: 100px;
+  font-weight: 400;
+  text-align: center;
+  height: 96px;
+  line-height: 400px;
+}
+.text {
+  font-size: 20px;
+  height: 32px;
+  line-height: 450px;
+  text-align: center;
+}
+.button2 {
+  padding: 20px 32px 20px 32px;
+  border-radius: 34px;
+  font-weight: bolder;
+}
+.button3 {
+  padding: 20px 32px 20px 32px;
+  border-radius: 30px;
+  font-weight: 1.5px solid#000000;
+}
+.abutton {
+  vertical-align: middle;
+  text-align: center;
+  line-height: 600px;
+}
+.button1:hover {
+  background-color: #ad343e;
+  color: #ffffff;
+  border-style: none;
+}
+.button2:hover {
+  background-color: #ad343e;
+  color: #ffffff;
+  border-style: none;
+}
+.button3:hover {
+  background-color: #ad343e;
+  color: #ffffff;
+  border-style: none;
+}
