@@ -1,0 +1,266 @@
+body {
+  background-image: url(../img/2.0_background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #ffffff;
+  /*不要滑動*/
+  overflow-x: hidden;
+}
+.material-symbols-outlined {
+  font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 24;
+}
+/*連結的部分文字不要裝飾*/
+a:link {
+  text-decoration: none;
+}
+.fish {
+  height: 45vh;
+  display: flex;
+  align-items: center;
+}
+.bg-green {
+  position: relative;
+  width: auto;
+  top: calc(100vh - 50vh);
+  z-index: -1;
+  -webkit-mask-image: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(rgba(0, 0, 0, 1)),
+    to(rgba(0, 0, 0, 0))
+  );
+}
+.container {
+  display: inline-grid;
+  padding: 0 20vw;
+  max-width: fit-content;
+  object-fit: contain;
+}
+
+.nav-icon {
+  position: fixed;
+  color: #ffffff;
+  font-size: 42px;
+  padding: 10px;
+}
+.btn-nav {
+  background-color: transparent;
+  border: transparent;
+}
+.btn-nav :hover {
+  color: #30ff00;
+}
+.btn-nav :active {
+  color: #30ff00;
+}
+.fish img {
+  width: 60vw;
+}
+.ocean-pollution {
+  margin-top: 100px;
+}
+.ocean-pollution h1 {
+  height: 130px;
+  background-image: url(../img/underline.png);
+  background-repeat: no-repeat;
+  background-position-y: bottom;
+}
+.ocean-pollution h4 {
+  margin-top: 50px;
+}
+.pollution-type-title {
+  margin-top: 180px;
+}
+
+.pollution-type-title h4 {
+  margin: 80px 0;
+}
+
+ul,
+li {
+  list-style: none;
+}
+.pollution-type {
+  display: inline-flex;
+  overflow: hidden;
+}
+.pollution-type h4 {
+  color: #000000;
+  margin-top: 20px;
+  width: auto;
+}
+.pollution-type h6 {
+  margin-top: 20px;
+  width: auto;
+}
+.plastic {
+  color: #000000;
+  background-color: #ffffff;
+  width: 14vw;
+  height: 400px;
+  margin: 0 1.3vw 0 0;
+  padding: 40px 30px;
+  border-radius: 25px;
+}
+.pl-img {
+  width: 10.8vw;
+  height: 180px;
+  background: url(../img/2.0_pollution/2.0_poulltion_default/2.0_poulltion_plastic_default.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.pl-text {
+  height: calc(400px - 80px - 150px);
+}
+.plastic:hover .pl-img {
+  background-image: url(../img/2.0_pollution/2.0_pollution_hover/2.0_pollution_plastic_.hover.png);
+}
+
+.metal {
+  color: #000000;
+  background-color: #ffffff;
+  width: 14vw;
+  height: 400px;
+  margin: 0 1.3vw 0 0;
+  padding: 40px 30px;
+  border-radius: 25px;
+}
+.mt-img {
+  width: 10.8vw;
+  height: 180px;
+  background: url(../img/2.0_pollution/2.0_poulltion_default/2.0_poulltion_heavy\ metal_default.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.mt-text {
+  height: calc(400px - 80px - 150px);
+}
+.metal:hover .mt-img {
+  background-image: url(../img/2.0_pollution/2.0_pollution_hover/2.0_poulltion_heavy\ metal_hover.png);
+}
+
+.oil {
+  color: #000000;
+  background-color: #ffffff;
+  width: 14vw;
+  height: 400px;
+  margin: 0 1.3vw 0 0;
+  padding: 40px 30px;
+  border-radius: 25px;
+}
+.oil-img {
+  width: 10.8vw;
+  height: 180px;
+  background: url(../img/2.0_pollution/2.0_poulltion_default/2.0_poulltion_oil_default.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.oil-text {
+  height: calc(400px - 80px - 150px);
+}
+.oil:hover .oil-img {
+  background-image: url(../img/2.0_pollution/2.0_pollution_hover/2.0_poulltion_oil_hover.png);
+}
+.minning {
+  color: #000000;
+  background-color: #ffffff;
+  width: 14vw;
+  height: 400px;
+  margin: 0 1.3vw 0 0;
+  padding: 40px 30px;
+  border-radius: 25px;
+}
+.min-img {
+  width: 10.8vw;
+  height: 180px;
+  background: url(../img/2.0_pollution/2.0_poulltion_default/2.0_poulltion_deep\ sea\ mining_default.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.min-text {
+  height: calc(400px - 80px - 150px);
+}
+.minning:hover .min-img {
+  background-image: url(../img/2.0_pollution/2.0_pollution_hover/2.0_poulltion_deep\ sea\ mining_hover.png);
+}
+.todo {
+  margin-top: 350px;
+}
+.todo-all {
+  margin-top: 150px;
+  display: inline-flex;
+}
+.todo h2 {
+  height: 115px;
+  background-image: url(../img/underline_small.png);
+  background-repeat: no-repeat;
+  background-position-y: bottom;
+}
+.circle-1 {
+  display: flex;
+  margin-bottom: 100px;
+}
+.circle-2 {
+  display: flex;
+  margin-bottom: 100px;
+}
+.circle-3 {
+  display: flex;
+  margin-bottom: 100px;
+}
+.circle-4 {
+  display: flex;
+  margin-bottom: 100px;
+}
+.circle-5 {
+  display: flex;
+  margin-bottom: 100px;
+}
+.circle-6 {
+  display: flex;
+  margin-bottom: 100px;
+}
+.circle-7 {
+  display: flex;
+  margin-bottom: 100px;
+}
+.todo h3 {
+  color: #ffffff;
+  margin-left: 20px;
+}
+.todo h5 {
+  color: #ffffff;
+  margin-top: 5px;
+  margin-bottom: 135px;
+}
+.cando {
+  color: #ffffff;
+  width: 80vw;
+  margin: 0 10vw;
+  margin-top: 300px;
+  margin-bottom: 170px;
+  display: inline-flex;
+  justify-content: flex-end;
+  background-color: transparent;
+  border: transparent;
+  align-items: center;
+  position: relative;
+  z-index: 1;
+}
+.material-symbols-outlined {
+  font-size: 50px;
+  vertical-align: middle;
+}
+.material-symbols-outlined ::before {
+  vertical-align: middle;
+}
+.cando h4:hover {
+  color: #30ff00;
+}
+.cando h4:hover ~ .material-symbols-outlined {
+  color: #30ff00;
+}
+.cando h4 {
+  margin-bottom: 0px;
+}

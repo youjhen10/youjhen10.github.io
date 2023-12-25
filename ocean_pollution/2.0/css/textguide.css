@@ -1,0 +1,60 @@
+h1 {
+  color: #fff;
+
+  /* 大標題 */
+  font-family: Noto Sans TC;
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+h2 {
+  color: #fff;
+
+  /* 標題一 */
+  font-family: Noto Sans TC;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+h3 {
+  color: #000;
+
+  /* 標題二 */
+  font-family: Noto Sans TC;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+h4 {
+  color: #fff;
+
+  /* 內文重點 */
+  font-family: Noto Sans TC;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+h5 {
+  color: rgba(0, 0, 0, 0.7);
+
+  /* 內文 */
+  font-family: Noto Sans TC;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+h6 {
+  color: #000;
+
+  /* 標記 */
+  font-family: Noto Sans TC;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}

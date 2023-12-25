@@ -1,0 +1,81 @@
+body {
+  width: 100vw;
+  background-image: url(../img/2.1_bg.png);
+  background-size: cover;
+  /*不要滑動*/
+  /* overflow-x: hidden; */
+}
+.btn-nav {
+  background-color: transparent;
+  border: transparent;
+}
+.btn-nav :hover {
+  color: #30ff00;
+}
+.btn-nav :active {
+  color: #30ff00;
+}
+h2 {
+  /*背景圖設定*/
+  width: 25vw;
+  height: 170px;
+  margin: 0;
+  background-image: url(../img/2.1_title_deco.png);
+  background-repeat: no-repeat;
+  /*標題設定*/
+}
+h4 {
+  /*背景圖設定*/
+  width: 40vw;
+  height: 125px;
+  background-image: url(../img/paper.png);
+  background-repeat: no-repeat;
+  /*標題設定*/
+  color: #000000;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+h6 {
+  color: #ffffff;
+}
+
+.container {
+  height: 100vh;
+  padding: 0 10vw;
+  display: inline-grid;
+  max-width: fit-content;
+  object-fit: contain;
+}
+.row img {
+  max-width: 100%;
+  max-height: 100%;
+}
+.plastic {
+  margin-bottom: 15vh;
+}
+.pl-inner {
+  display: inline-flex;
+  margin-top: 70px;
+}
+.metal {
+  margin-bottom: 15vh;
+}
+.mt-inner {
+  display: inline-flex;
+  margin-top: 70px;
+}
+.oil {
+  margin-bottom: 15vh;
+}
+.oil-inner {
+  display: inline-flex;
+  margin-top: 70px;
+}
+.minning {
+  margin-bottom: 15vh;
+}
+.min-inner {
+  display: inline-flex;
+  margin-top: 70px;
+}

@@ -1,0 +1,425 @@
+body {
+  background-color: #000000;
+  background-image: url(../img/green_bg.png);
+  background-size: cover;
+}
+
+/*手動畫*/
+.section {
+  display: flex;
+  min-height: 100vh;
+  position: relative;
+}
+
+.image-container {
+  position: fixed;
+  display: flex;
+}
+
+.image {
+  width: 100vw;
+  height: 80vh;
+  position: fixed;
+  top: -50px;
+  /* left: 8vw; */
+  background-size: 60% auto;
+  background-position: center top;
+  background-repeat: no-repeat;
+  opacity: 0;
+  transition: opacity 0.001s;
+}
+.image_01 {
+  background-image: url(../img/1hand.png);
+}
+.image_02 {
+  background-image: url(../img/2hand.png);
+}
+.image_03 {
+  background-image: url(../img/3hand.png);
+}
+.section.active .image {
+  opacity: 1;
+}
+/*手動畫 end*/
+
+.trash img {
+  width: 100%;
+  top: 50px;
+  vertical-align: top;
+  margin-top: -1500px;
+}
+.action-title img {
+  width: 235px;
+  height: 345px;
+  vertical-align: middle;
+}
+.action-title {
+  width: 701px;
+  height: 444px;
+  text-align: center;
+  margin-left: 370px;
+  vertical-align: middle;
+  margin-top: -380px;
+  margin: -380px 0px 495px 370px;
+}
+.title-text {
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.title-text h1 {
+  position: absolute;
+  z-index: 2;
+}
+.title-text img {
+  position: absolute;
+  width: 701px;
+  height: 112px;
+  margin-top: 100px;
+  z-index: 1;
+}
+/*******連結***************************************************************************/
+a {
+  text-decoration: none;
+  width: 387.998px;
+  height: 463.253px;
+  border-radius: 100px;
+  border: 5px solid #fff;
+}
+a:hover {
+  width: 387.998px;
+  height: 463.253px;
+  background-color: #30ff00;
+  border-radius: 100px;
+  border: none;
+}
+/*******淨灘***************************************************************************/
+.clean {
+  margin: 72px 0px 145.75px 0px;
+  width: 1386px;
+  height: 858.253px;
+  min-height: 100vh;
+}
+.clean-text {
+  text-align: left;
+}
+.clean-text img {
+  position: absolute;
+  width: 374px;
+  height: 111px;
+  margin: -80px -140px;
+  z-index: -1;
+}
+.clean-text h2 {
+  display: flex;
+  text-align: center;
+  vertical-align: middle;
+  width: 236px;
+  height: 87px;
+  z-index: 1;
+}
+.clean-text h4 {
+  margin: 23px 0px 99px 0px;
+}
+
+.clean-buttons {
+  width: 387.998px;
+  height: 463.253px;
+  vertical-align: middle;
+  width: auto;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.clean-buttons h3 {
+  vertical-align: middle;
+  width: auto;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 57px auto 30px;
+}
+.clean-button-one h3 {
+  margin: 26px auto 30px;
+}
+.c-b-one-img {
+  width: 192px;
+  height: 192px;
+  background-image: url(../img/campaign.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin: 55px auto 0px;
+}
+.c-b-two-img {
+  width: 122px;
+  height: 119px;
+  background-image: url(../img/adoptlogo.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin: 97px auto 0px;
+}
+.c-b-three-img {
+  width: 132px;
+  height: 132px;
+  background-image: url(../img/event_available.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin: 89px auto 0px;
+}
+/*******回收*************************************************************************/
+.recycle {
+  margin: 72px 0px 145.75px 0px;
+  width: 1386px;
+  height: 858.253px;
+  min-height: 100vh;
+}
+.recycle-text {
+  text-align: left;
+}
+.recycle-text img {
+  position: absolute;
+  width: 374px;
+  height: 111px;
+  margin: -80px -140px;
+  z-index: -1;
+}
+.recycle-text h2 {
+  display: flex;
+  text-align: center;
+  vertical-align: middle;
+  width: 236px;
+  height: 87px;
+  z-index: 1;
+}
+.recycle-text h4 {
+  margin: 23px 0px 99px 0px;
+}
+.recycle-buttons {
+  width: 387.998px;
+  height: 463.253px;
+  vertical-align: middle;
+  width: auto;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.recycle-buttons h3 {
+  vertical-align: middle;
+  width: auto;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 37px auto 30px;
+}
+.recycle-button-two h3 {
+  margin: 34px auto 30px;
+}
+.r-b-one-img {
+  width: 166px;
+  height: 166px;
+  background-image: url(../img/water_bottle_large.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin: 73px auto 0px;
+}
+.r-b-two-img {
+  width: 171px;
+  height: 171px;
+  background-image: url(../img/build.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin: 68px auto 0px;
+}
+.r-b-three-img {
+  width: 165px;
+  height: 165px;
+  background-image: url(../img/location_on.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin: 71px auto 0px;
+}
+/*******連署與法案*************************************************************************/
+.law {
+  margin: 72px 0px 145.75px 0px;
+  width: 1386px;
+  height: 858.253px;
+  min-height: 100vh;
+}
+.law-text {
+  text-align: left;
+}
+.law-text img {
+  position: absolute;
+  width: 374px;
+  height: 111px;
+  margin: -80px -140px;
+  z-index: -1;
+}
+.law-text h2 {
+  display: flex;
+  text-align: center;
+  vertical-align: middle;
+  height: 87px;
+  z-index: 1;
+}
+.law-text h4 {
+  margin: 23px 0px 99px 0px;
+}
+.law-buttons {
+  width: 387.998px;
+  height: 463.253px;
+  vertical-align: middle;
+  width: auto;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.law-buttons h3 {
+  vertical-align: middle;
+  width: auto;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.law-button-one h3 {
+  margin: 41px auto 30px;
+}
+.law-button-two h3 {
+  margin: 50px auto 30px;
+}
+.law-button-three h3 {
+  margin: 38px auto 30px;
+}
+.l-b-one-img {
+  width: 150px;
+  height: 150px;
+  background-image: url(../img/language.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin: 82px auto 0px;
+}
+.l-b-two-img {
+  width: 87px;
+  height: 109px;
+  background-image: url(../img/greenpease.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin: 114px auto 0px;
+}
+.l-b-three-img {
+  width: 148px;
+  height: 148px;
+  background-image: url(../img/library_books.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin: 87px auto 0px;
+}
+/*******捐款*************************************************************************/
+.donate {
+  margin: 72px 0px 145.75px 0px;
+  width: 1386px;
+  height: 858.253px;
+  min-height: 100vh;
+}
+.donate-text {
+  text-align: left;
+}
+.donate-text img {
+  position: absolute;
+  width: 374px;
+  height: 111px;
+  margin: -80px -140px;
+  z-index: -1;
+}
+.donate-text h2 {
+  display: flex;
+  text-align: center;
+  vertical-align: middle;
+  width: 236px;
+  height: 87px;
+  z-index: 1;
+}
+.donate-text h4 {
+  margin: 23px 0px 99px 0px;
+}
+.donate-buttons {
+  width: 387.998px;
+  height: 463.253px;
+  vertical-align: middle;
+  width: auto;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.donate-buttons h3 {
+  vertical-align: middle;
+  width: auto;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.donate-button-one h3 {
+  margin: 72px auto 30px;
+}
+.donate-button-two h3 {
+  margin: 51px auto 30px;
+}
+.donate-button-three h3 {
+  margin: 59px auto 30px;
+}
+.d-b-one-img {
+  width: 87px;
+  height: 109px;
+  background-image: url(../img/greenpease.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin: 95px auto 0px;
+}
+.d-b-two-img {
+  width: 171px;
+  height: 145px;
+  background-image: url(../img/teia.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin: 77px auto 0px;
+}
+.d-b-three-img {
+  width: 166px;
+  height: 123px;
+  background-image: url(../img/blackriver.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin: 88px auto 0px;
+}
+
+/*footer*******************************************************/
+footer {
+  width: 100vw;
+  height: 256px;
+  display: flex;
+  background-image: url(../img/footer.png);
+  background-size: 100vw;
+  background-repeat: no-repeat;
+  background-position: bottom;
+}

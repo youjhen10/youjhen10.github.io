@@ -1,0 +1,599 @@
+.material-symbols-outlined {
+  font-variation-settings: "FILL" 1, "wght" 400, "GRAD" 0, "opsz" 24;
+}
+
+.black_background {
+  background-size: auto 100%;
+  position: relative;
+}
+.black_background::before {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: -2;
+  background: url(../img/background/background_img4.0.png) no-repeat right
+    center/cover;
+}
+
+.header {
+  background: url(../img/background/BeachCleanup_header.png) no-repeat right
+    center/cover;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.header_title {
+  width: 238px;
+  height: 238px;
+  border-radius: 100%;
+  background-color: #30ff00;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.green_background {
+  background: url(../img/background/green_bg.png) no-repeat bottom center/cover;
+}
+/*淨灘注意事項*/
+.start_container {
+  padding-bottom: 40px;
+  position: relative;
+}
+
+.start_container:after {
+  position: absolute;
+  content: "";
+  display: block;
+  z-index: 0;
+  width: 2px;
+  height: 100%;
+  background-color: #30ff00;
+  top: 0;
+  left: calc(50% - 1px);
+}
+.start_container .row {
+  margin-bottom: 40px;
+  position: relative;
+}
+.start_container .row:after {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 46px;
+  height: 46px;
+  border-radius: 50%;
+  background-color: #30ff00;
+  top: 0;
+  left: calc(50% - 23px);
+}
+/*淨灘注意事項標題*/
+.clean_beach_title {
+  font-size: 48px;
+  position: relative;
+  padding-left: 27px;
+  line-height: 96px;
+  display: flex;
+  align-items: center;
+}
+.clean_beach_title .circle {
+  width: 82px;
+  height: 82px;
+  border-radius: 50%;
+  background-color: rgba(217, 217, 217, 0.5);
+  position: absolute;
+  left: 0;
+  top: -5px;
+  z-index: 0;
+}
+.clean_beach_title img {
+  position: absolute;
+}
+.clean_beach_title h2 {
+  margin-left: 110px;
+}
+/*淨灘注意事項標題end*/
+.process_line .start {
+  text-align: center;
+  color: #ffffff;
+  font-size: 32px;
+  width: 152px;
+  height: 152px;
+  background-color: #30ff00;
+  border-radius: 50%;
+  line-height: 152px;
+  position: relative;
+  margin: 170px auto;
+}
+.process_line .start::before {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 236px;
+  height: 236px;
+  border-radius: 50%;
+  border: solid #30ff00 4px;
+  left: calc(50% - 118px);
+  top: calc(50% - 118px);
+}
+.sub_title {
+  margin-bottom: 10px;
+}
+.step_block .title {
+  height: 113px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  line-height: 113px;
+  font-family: "Noto Sans TC";
+  font-size: 46px;
+  font-weight: 700;
+  position: relative;
+  max-width: 400px;
+  margin-bottom: 30px;
+}
+.step_block .title .circle {
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+  background-color: rgba(48, 255, 0, 0.8);
+  display: block;
+  position: absolute;
+  left: 0;
+  top: -10px;
+}
+.step_block .title.title_right .circle {
+  right: 0;
+  left: auto;
+}
+.title_left {
+  text-align: center;
+  background-position: 20px center;
+}
+.title_right {
+  margin: 0 0 20px auto;
+  padding-left: calc(50% - 150px);
+}
+.step_block .title_right.title_02 {
+  background-position-x: calc(100% - 30px);
+}
+/*調整上下紙張距離*/
+.step_block .title_01 {
+  background-image: url(../img/paper/paper_01.png);
+}
+.step_block .title_02 {
+  background-image: url(../img/paper/paper_02.png);
+}
+.step_block .title_03 {
+  background-image: url(../img/paper/paper_03.png);
+  margin-bottom: 40px;
+}
+.step_block .title_04 {
+  background-image: url(../img/paper/paper_02.png);
+}
+.step_block .title_05 {
+  background-image: url(../img/paper/paper_05.png);
+  margin-bottom: 40px;
+}
+
+.step_text {
+  background-color: #d9d9d9;
+  border-radius: 40px;
+  padding: 0 32px 32px 32px;
+}
+.sub_title {
+  display: flex;
+  align-items: center;
+}
+.sub_title .title {
+  font-size: 36px;
+  position: relative;
+  font-weight: bold;
+  background-image: url(../img/scribbling/scribbling_01.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center 90%;
+}
+
+.title_memo {
+  text-align: right;
+  width: calc(100% - 220px);
+  font-size: 32px;
+  color: rgba(0, 0, 0, 0.7);
+  background-image: url(../img/scribbling/scribbling_circle.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right top;
+  padding: 5px 0;
+}
+.step_contain {
+  font-size: 20px;
+}
+/*淨灘注意事項 end*/
+
+/*淨灘認養系統 start*/
+.system {
+  margin-top: 0px;
+}
+.black_grid {
+  width: 100vw;
+  height: 144px;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0) 0%, #000 100%);
+}
+/*標題*/
+.system_title {
+  font-size: 48px;
+  position: relative;
+  padding-left: 27px;
+  line-height: 96px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-bottom: 60px;
+}
+.system_title .circle {
+  width: 82px;
+  height: 82px;
+  border-radius: 50%;
+  background-color: rgba(217, 217, 217, 0.5);
+  position: absolute;
+  left: 0;
+  top: -5px;
+  z-index: -1;
+}
+.system_title img {
+  position: absolute;
+  padding-right: 21px;
+}
+.system_title h2 {
+  margin-left: 90px;
+}
+/*標題 end*/
+/*內容*/
+
+/*統一顏色*/
+.system_button01 h3 {
+  color: #ffffff;
+}
+.system_button02 h3 {
+  color: #ffffff;
+}
+.system_button03 h3 {
+  color: #ffffff;
+}
+.system_button04 h3 {
+  color: #ffffff;
+}
+.system_button05 h3 {
+  color: #ffffff;
+}
+.green_circle h3 {
+  color: #ffffff;
+}
+/*統一顏色end*/
+/*01*/
+.system_button01 {
+  width: 494px;
+  height: 201px;
+  border: 3px solid #fff;
+  border-radius: 50px;
+  padding: 0 32px 32px 32px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 30px;
+}
+
+.row_system01 {
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 75px;
+}
+.row_system01 .col-4 {
+  width: 494px;
+  height: 201px;
+}
+/*01_hover*/
+.system_button01:hover {
+  background: rgba(48, 255, 0, 0.8);
+  border: 0px solid #30ff00;
+}
+
+/*02*/
+.system_button02 {
+  width: 494px;
+  height: 201px;
+  border: 3px solid #fff;
+  border-radius: 50px;
+  padding: 0 32px 32px 32px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 30px;
+}
+
+.row_system02 {
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 75px;
+}
+.row_system02 .col-4 {
+  width: 494px;
+  height: 201px;
+}
+/*02_hover*/
+.system_button02:hover {
+  background: rgba(48, 255, 0, 0.8);
+  border: 0px solid #30ff00;
+}
+/*03*/
+.system_button03 {
+  width: 494px;
+  height: 201px;
+  border: 3px solid #fff;
+  border-radius: 50px;
+  padding: 0 32px 32px 32px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 30px;
+}
+
+.row_system03 {
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 75px;
+}
+.row_system03 .col-4 {
+  width: 494px;
+  height: 201px;
+}
+/*03_hover*/
+.system_button03:hover {
+  background: rgba(48, 255, 0, 0.8);
+  border: 0px solid #30ff00;
+}
+/*04*/
+.system_button04 {
+  width: 494px;
+  height: 201px;
+  border: 3px solid #fff;
+  border-radius: 50px;
+  padding: 0 32px 32px 32px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 30px;
+}
+
+.row_system04 {
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 75px;
+}
+.row_system04 .col-4 {
+  width: 494px;
+  height: 201px;
+}
+/*04_hover*/
+.system_button04:hover {
+  background: rgba(48, 255, 0, 0.8);
+  border: 0px solid #30ff00;
+}
+/*05*/
+.system_button05 {
+  width: 494px;
+  height: 201px;
+  border: 3px solid #fff;
+  border-radius: 50px;
+  padding: 0 32px 32px 32px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 30px;
+}
+
+.row_system05 {
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 75px;
+}
+.row_system05 .col-4 {
+  width: 494px;
+  height: 201px;
+}
+/*05_hover*/
+.system_button05:hover {
+  background: rgba(48, 255, 0, 0.8);
+  border: 0px solid #30ff00;
+}
+/*圓圈*/
+.all_green_circle {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 75px;
+}
+.all_green_circle .green_circle {
+  width: 296px;
+  height: 296px;
+  border: 10px solid rgba(48, 255, 0, 0.8);
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background: transparent;
+}
+/*圓圈hover*/
+.green_circle:hover {
+  background: rgba(48, 255, 0, 0.8);
+  transition: linear 300ms;
+}
+
+/*近期淨灘活動*/
+
+/*標題*/
+.action_title {
+  font-size: 48px;
+  position: relative;
+  padding-left: 27px;
+  line-height: 96px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-bottom: 60px;
+}
+.action_title .circle {
+  width: 82px;
+  height: 82px;
+  border-radius: 50%;
+  background-color: rgba(217, 217, 217, 0.5);
+  position: absolute;
+  left: 0;
+  top: -5px;
+  z-index: -1;
+}
+.action_title img {
+  padding-right: 21px;
+  position: absolute;
+}
+.action_title h2 {
+  margin-left: 90px;
+}
+/*標題 end*/
+.beach_01 .beach_circle_01 {
+  display: block;
+  width: 47px;
+  height: 47px;
+  background-color: rgba(48, 255, 0, 0.6);
+  border-radius: 100%;
+  position: absolute;
+  z-index: 1;
+}
+
+.beach_01 .circle_h3_01 {
+  display: flex;
+  align-items: center;
+  position: relative;
+  height: 60px;
+}
+.beach_01 .circle_h3_01 h3 {
+  position: absolute;
+  z-index: 2;
+  left: 30px;
+}
+.action_container {
+  padding-bottom: 40px;
+  position: relative;
+}
+.beach_01 h3 {
+  margin-bottom: 10px;
+}
+.row_beach_01 .col-12 {
+  border-radius: 50px;
+  background: #d9d9d9;
+  padding: 51px 108px;
+  display: flex;
+  margin-bottom: 60px;
+}
+.row_beach_01 .col-12::before {
+  content: "";
+  position: absolute;
+  width: 500px;
+  height: 132px;
+  background-image: url(../img/scribbling/Smaterial.png);
+
+  background-size: cover;
+  right: 0;
+  top: 0;
+}
+.row_beach_01 .col-12 img {
+  width: 449px;
+  height: 261px;
+}
+.beach_01 {
+  margin-left: 85px;
+}
+.row_beach_01.col-12 {
+  width: 449px;
+  height: 261px;
+}
+.beach_text_01 h6 {
+  margin-top: 5px;
+}
+
+/*02*/
+
+.beach_02 .beach_circle_02 {
+  display: block;
+  width: 47px;
+  height: 47px;
+  background-color: rgba(48, 255, 0, 0.6);
+  border-radius: 100%;
+  position: absolute;
+  z-index: 1;
+}
+
+.beach_02 .circle_h3_02 {
+  display: flex;
+  align-items: center;
+  position: relative;
+  height: 60px;
+}
+.beach_02 .circle_h3_02 h3 {
+  position: absolute;
+  z-index: 2;
+  left: 30px;
+}
+.action_container {
+  padding-bottom: 40px;
+  position: relative;
+}
+.beach_02 h3 {
+  margin-bottom: 10px;
+}
+.row_beach_02 .col-12 {
+  border-radius: 50px;
+  background: #d9d9d9;
+  padding: 51px 108px;
+  display: flex;
+}
+.row_beach_02 .col-12::before {
+  content: "";
+  position: absolute;
+  width: 500px;
+  height: 132px;
+  background-image: url(../img/scribbling/Smaterial.png);
+
+  background-size: cover;
+  right: 0;
+  top: 420px;
+}
+.row_beach_02 .col-12 img {
+  width: 449px;
+  height: 261px;
+}
+.beach_02 {
+  margin-left: 85px;
+}
+.row_beach_02.col-12 {
+  width: 449px;
+  height: 261px;
+}
+.beach_text_02 h6 {
+  margin-top: 5px;
+}
+
+/*內容end*/
+/*footer*/
+footer {
+  width: 100vw;
+  height: 256px;
+  display: flex;
+  background-image: url(../img/footer/footer.png);
+  background-size: 100vw;
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
